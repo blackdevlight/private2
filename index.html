@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Money</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="desktop-4-1400px">
+        <header class="d4-14px-site-header">
+            <nav class="d4-14px-site-nav">
+                <a href="/index.html" class="logo">
+                    <img src="/images/logo.webp" alt="logo" width="190" height="58">
+                </a>
+                <div class="d4-14px-nav-links-1">
+                    <ul>
+                        <li><a href="/home" id="home" class="active" >HOME</a></li>
+                        <li><a href="/dapp" id="">DAPP</a></li>
+                        <li><a href="/token">TOKEN</a></li>
+                        <li><a href="/more">MORE</a></li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="d4-14px-nav-links-2">
+                    <ul>
+                        <li><a href="/download" id="download">DOWNLOAD THE WALLET</a></li>
+                        <li><a href="/join" id="join">JOIN COMMUNITY</a></li>
+                        
+                    </ul>
+                    
+                </div>
+              
+                
+            </nav>
+            
+        </header>
+    </div>
+    <div class="desktop-4-1000px">
+        <header class="d4-10px-site-header">
+            <nav class="d4-10px-site-nav">
+                <a href="/index.html" class="logo">
+                    <img src="/images/logo.webp" alt="logo" width="190" height="58">
+                </a>
+                <div class="d4-10px-nav-links">
+                    <ul>
+                        <li><a href="/download" id="download">DOWNLOAD THE WALLET</a></li>
+                        <li><a href="/join" id="join">JOIN COMMUNITY</a></li>
+                        
+                    </ul>
+                    
+                </div>
+                <div>
+                    <a href="#javascript:void(0)" id="menu"><img src="/images/hamburger.084a1bc2.svg" alt="menu" width="79" height="31"></a>
+                </div>
+                
+            </nav>
+            <div class="side-nav" id="sidenav">
+                <button class="cancel" id="cancel">&times;</button>
+               
+                <div class="sidenav-links">
+                    
+                        <img src="/images/logo.webp" alt="logo" width="190" height="58">
+                    
+                    <a href="">HOME</a>
+                <a href="">ABOUT US</a>
+                <a href="">DAPP</a>
+                <a href="">T.I.M.E DIVIDEND (TIME)</a>
+                <a href="">FUTURE T.I.M.E DIVIDEND (FUTURE)</a>
+                <a href="">BLACKPAPER</a>
+                <a href="">AUDITS</a>
+                <a href="">STATS</a>
+                <a href="" class="download" id="download">DOWNLOAD THE WALLET</a>
+                <a href="" class="join" id="join"> JOIN COMMUNITY</a>    
+                </div>
+                
+            </div>
+        </header>
+    </div>
+    <div class="desktop-4-799px">
+        <header class="d4-799px-site-header">
+            <nav class="d4-799px-site-nav">
+                <a href="/index.html" class="logo">
+                    <img src="/images/logo.webp" alt="logo" width="190" height="58">
+                </a>
+               
+                <div>
+                    <a href="#javascript:void(0)" id="menu-mobile" class="menu-btns"><img src="/images/hamburger.084a1bc2.svg" alt="menu" width="79" height="31"></a>
+                </div>
+                
+            </nav>
+            <div class="side-nav" id="sidenav-mobile">
+                <button class="cancel" id="cancel-mobile">&times;</button>
+               
+                <div class="sidenav-links">
+                    
+                        <img src="/images/logo.webp" alt="logo" width="190" height="58">
+                    
+                    <a href="">HOME</a>
+                <a href="">ABOUT US</a>
+                <a href="">DAPP</a>
+                <a href="">T.I.M.E DIVIDEND (TIME)</a>
+                <a href="">FUTURE T.I.M.E DIVIDEND (FUTURE)</a>
+                <a href="">BLACKPAPER</a>
+                <a href="">AUDITS</a>
+                <a href="">STATS</a>
+                <a href="" class="download" id="download">DOWNLOAD THE WALLET</a>
+                <a href="" class="join" id="join"> JOIN COMMUNITY</a>    
+                </div>
+                
+            </div>
+            <div class="text-container-799px">
+                <div class="textbox-799px">
+                    <h4>YOUR GATEWAY TO DEFI</h4>
+                    <h3>THE FIRST CRYPTO WALLET OF ITS KIND</h3>
+                </div>
+                <div class="dancing-gif">
+                    <img src="/images/alien-sitting.gif"  class="alien" alt="alien" width="70">
+                    <h1>GET THE APP</h1>
+                </div>
+                <div class="download-btns">
+                    <a href="">
+                        <img src="/images/ios.bf451e7f.svg" alt="ios" width="200">
+                    </a>
+                    <a href="">
+                        <img src="/images/android.a305525d.svg" alt="android" width="200">
+                    </a>
+                    <a href="">
+                        <img src="/images/chrome.331862c0.png" alt="chrome" width="200">
+                    </a>
+                </div>
+            </div>
+         
+        </header>
+    </div>
+    <script>
+       const menu = document.getElementById('menu');
+            const cancel = document.getElementById('cancel');
+            const sidenav = document.getElementById('sidenav');
+
+
+            menu.addEventListener('click', ()=>{
+                sidenav.style.width = "25%";
+            });
+            cancel.addEventListener('click', ()=>{
+                sidenav.style.width = "0%";
+            });
+            
+            const menuMobile = document.getElementById('menu-mobile');
+            const cancelMobile = document.getElementById('cancel-mobile');
+            const sidenavMobile = document.getElementById('sidenav-mobile');
+
+
+            menuMobile.addEventListener('click', ()=>{
+                sidenavMobile.style.width = "100%";
+            });
+            cancelMobile.addEventListener('click', ()=>{
+                sidenavMobile.style.width = "0%";
+            });
+            
+    </script>
+</body>
+</html>

@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+@font-face {
+    font-family: black;
+    src: url('/fonts/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: medium;
+    src: url('/fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: light;
+    src: url('/fonts/Poppins-Light.ttf');
+}
+@media (min-width: 150px) and (max-width:279px){
+    html,body{
+        display: none;
+    }
+}
+@media (min-width: 280px) and (max-width: 319px) {
+.text-container-799px{
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+}
+    .desktop-4-1000px, .desktop-4-1400px{
+        display: none;
+    }
+    .d4-799px-site-header{
+        min-height: 200vh;
+        width: 100%;
+        background-image: url('/images/landing-hero.webp');
+        background-size: cover;
+        background-position: center;
+    }
+    .d4-799px-site-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        padding: 0% 4%;
+        height: 115px;
+        background-color: #0202024f;
+    }
+    .d4-799px-nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .d4-799px-nav-links ul li{
+        list-style-type: none;
+        display: inline-block;
+      
+       
+    }
+    .side-nav{
+        top: 0%;
+        right: 0%;
+        width: 0%;
+        height: 500vh;
+        position: fixed;
+        overflow-x: hidden;
+        background-image: url('/images/landing-hero.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s; 
+    }
+    .sidenav-links{
+        margin: 2rem 0 0;
+    }
+    .side-nav .cancel{
+        color: #fff;
+        font-family: light;
+        position: absolute;
+        top: 0%;
+        right: 4%;
+        background: none;
+        border: none;
+        font-size: 1.9rem;
+        outline: none;
+        cursor: pointer;
+    }
+    .side-nav a{
+        color: #fff;
+        display: block;
+        font-family: Black;
+        font-size: 1.05rem;
+        text-align: center;
+        width: 80%;
+
+        margin: 1rem auto;
+        text-decoration: none;
+    
+
+
+    }
+    .side-nav #download, .side-nav #join{
+        color: #000;
+        font-family: black;
+        font-size: 0.895rem;
+        padding: 18px 20px;
+        border-radius: 30px;
+        background: gold;
+    }
+    .side-nav img{
+        display: block;
+        margin: 1rem auto;
+        text-decoration: none;
+    }
+    .logo img{
+        width: 140px;
+    }
+    .textbox-799px{
+        margin: 4rem 0 2rem;
+        padding: 50px 0 5px;
+    }
+    .textbox-799px h4{
+        color: #fff;
+        font-family: Light;
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+    .textbox-799px h3{
+        color: aqua;
+        font-family: medium;
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+     .dancing-gif{
+        margin: 3rem 0 2rem;
+        position: relative;
+        width: 100%;
+        
+    }
+    .dancing-gif img{
+
+        position: absolute;
+        bottom: 20%;
+    }
+    .dancing-gif h1{
+        font-family: black;
+        color: #FFDB0C;
+        font-size: 2.5rem;
+        line-height: 1.6;
+    }
+    .download-btns img{
+        text-align: center;
+        margin: 0.4rem 0;
+    }
+}
+
+
+@media (min-width:320px) and (max-width: 875px){
+    .text-container-799px{
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        text-align: center;
+    }
+    .desktop-4-1000px, .desktop-4-1400px{
+        display: none;
+    }
+    .d4-799px-site-header{
+        min-height: 200vh;
+        width: 100%;
+        background-image: url('/images/landing-hero.webp');
+        background-size: cover;
+        background-position: center;
+    }
+    .d4-799px-site-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        padding: 0% 4%;
+        height: 115px;
+        background-color: #0202024f;
+    }
+    .d4-799px-nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .d4-799px-nav-links ul li{
+        list-style-type: none;
+        display: inline-block;
+      
+       
+    }
+    .side-nav{
+        top: 0%;
+        right: 0%;
+        width: 0%;
+        height: 500vh;
+        position: fixed;
+        overflow-x: hidden;
+        background-image: url('/images/landing-hero.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s; 
+    }
+    .sidenav-links{
+        margin: 2rem 0 0;
+    }
+    .side-nav .cancel{
+        color: #fff;
+        font-family: light;
+        position: absolute;
+        top: 0%;
+        right: 4%;
+        background: none;
+        border: none;
+        font-size: 1.9rem;
+        outline: none;
+        cursor: pointer;
+    }
+    .side-nav a{
+        color: #fff;
+        display: block;
+        font-family: Black;
+        font-size: 1.05rem;
+        text-align: center;
+        width: 80%;
+
+        margin: 1rem auto;
+        text-decoration: none;
+    
+
+
+    }
+    .side-nav #download, .side-nav #join{
+        color: #000;
+        font-family: black;
+        font-size: 0.895rem;
+        padding: 18px 20px;
+        border-radius: 30px;
+        background: gold;
+    }
+    .side-nav img{
+       
+        
+      display: block;
+        
+        margin: 1rem auto;
+        text-decoration: none;
+
+
+    }
+    .textbox-799px{
+     
+        margin: 4rem 0 2rem;
+        padding: 50px 0 5px;
+    }
+    .textbox-799px h4{
+        color: #fff;
+        font-family: Light;
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+    .textbox-799px h3{
+        color: aqua;
+        font-family: medium;
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+     .dancing-gif{
+        margin: 3rem 0 2rem;
+        position: relative;
+        width: 100%;
+        
+    }
+    .dancing-gif img{
+
+        position: absolute;
+        bottom: 20%;
+    }
+    .dancing-gif h1{
+        font-family: black;
+        color: #FFDB0C;
+        font-size: 3.2rem;
+        line-height: 1.6;
+    }
+    .download-btns img{
+        text-align: center;
+        margin: 0.4rem 0;
+    }
+}
+@media (min-width: 876px) and (max-width: 1350px){
+    .desktop-4-1400px{
+        display: none;
+    }
+    .d4-10px-site-header{
+        min-height: 200vh;
+        width: 100%;
+        background-image: url('/images/landing-hero.webp');
+        background-size: cover;
+        background-position: center;
+    }
+    .d4-10px-site-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        padding: 0% 4%;
+        height: 115px;
+        background-color: #0202024f;
+    }
+    .d4-10px-nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .d4-10px-nav-links ul li{
+        list-style-type: none;
+        display: inline-block;
+      
+       
+    }
+    .d4-10px-nav-links ul li #join, .d4-10px-nav-links ul li #download {
+        font-size: 0.875rem;
+        font-family: black;
+       display: block;
+       padding: 15px 40px;
+        text-align: center;      
+        text-decoration: none;
+        max-width: 90%;
+        border-radius: 46px;
+        margin: 0px 10px;
+    }
+    .side-nav{
+        top: 0%;
+        right: 0%;
+        width: 0%;
+        height: 200vh;
+        position: fixed;
+        overflow-x: hidden;
+        background-image: url('/images/landing-hero.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s;
+    }
+    
+    .d4-10px-nav-links ul li #download{
+        background-color: gold;
+        color: #000;
+
+    }
+    .d4-10px-nav-links ul li #join{
+        border: 3px solid gold;
+        color: gold;
+    }
+    .d4-10px-nav-links ul li #join:hover {
+        background: rgba(255, 217, 0, 0.856);
+        color: #000;
+    }
+}
+@media (min-width:1351px) {
+    .desktop-799px, .desktop-4-1000px{
+        display: none;
+    }
+    .d4-799px-site-nav, .side-nav{
+        width: 0;
+        display: none;
+    }
+    
+   
+    .d4-14px-site-header{
+        min-height: 200vh;
+        width: 100%;
+        background-image: url('/images/landing-hero.webp');
+        background-size: cover;
+        background-position: center;
+    }
+    .d4-14px-site-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        padding: 0% 4%;
+        height: 115px;
+        background-color: #0202024f;
+    }
+    .d4-14px-nav-links-1{
+        flex: 1;
+        text-align: left;
+        margin-left: 1rem;
+    }
+    
+    .d4-14px-nav-links-2{
+        flex: 1;
+        text-align: right;
+    }
+    .d4-14px-nav-links-1 ul li, .d4-14px-nav-links-2 ul li{
+        list-style-type: none;
+        display: inline-block;
+      
+       
+    }
+    .d4-14px-nav-links-1 ul li a{
+        color: #FFF;
+        font-size: 0.90rem;
+        font-family: black;
+        text-decoration: none;
+        text-align: center;
+        padding: 42px 35px;
+        margin: 0 0.3rem;
+        
+    }
+    .d4-14px-nav-links-1 ul li .active{
+        border-top: 8px solid #FFDB0C;
+        background: linear-gradient(180deg, rgba(248, 166, 26, 0.31) 0%, rgba(248, 166, 26, 0) 100%);
+    }
+    .d4-14px-nav-links-2 ul li #join, .d4-14px-nav-links-2 ul li #download {
+        font-size: 0.875rem;
+        font-family: black;
+       display: block;
+       padding: 15px 35px;
+        text-align: center;      
+        text-decoration: none;
+        max-width: 90%;
+        border-radius: 46px;
+        margin: 0px 10px;
+    }
+    .d4-14px-nav-links-2 ul li #download{
+        background-color: gold;
+        color: #000;
+
+    }
+    .d4-14px-nav-links-2 ul li #join{
+        border: 3px solid gold;
+        color: gold;
+    }
+    .d4-14px-nav-links-2 ul li #join:hover {
+        background: rgba(255, 217, 0, 0.856);
+        color: #000;
+    }
+}
